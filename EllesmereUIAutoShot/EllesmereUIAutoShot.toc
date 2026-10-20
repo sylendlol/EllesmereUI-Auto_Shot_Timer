@@ -1,0 +1,20 @@
+## Interface: 120000, 120001, 120005, 120007, 120100, 120105, 16001
+## Title: |cff0cd29fEllesmereUI|r Auto Shot Timer
+## Category: |cff0cd29fEllesmere|rUI
+## Group: EllesmereUI
+## Notes: Hunter Auto Shot timer: haste-scaled wind-up window, latency, late-shot tracking, clip readout.
+## Author: Dworak
+## Version: 9.6.1-6
+## Dependencies: EllesmereUI, EllesmereUIDworak
+## OptionalDeps: EllesmereUIResourceBars
+## SavedVariables: EllesmereUIAutoShotDB
+## IconTexture: Interface\AddOns\EllesmereUI\media\eg-logo.tga
+
+# Settings store + shared helpers
+EllesmereUIAutoShot.lua
+# Timing (model after AppelSwingsForever's measured Forever rules)
+AutoShot_Engine.lua
+# Bar, Dworak > Auto Shot Timer page, Unlock Mode, /autoshot
+AutoShot_Bar.lua
+# Two rows in Resource Bars > Cast Bar > EXTRAS (only with Resource Bars on)
+AutoShot_CastExtras.lua
